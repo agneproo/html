@@ -1,3 +1,37 @@
+/*
+.--> class
+#--> id
+ --> tag/element
+ */
+/* Element Selector /*
+
 h3 {
   color: blue;
 }
+
+/* # is used for ID */
+
+
+/* . is used for Classes */
+
+body {
+font-family: "Courier New", Courier, monospace";
+font-size: 30px;
+font-weight: bold;
+font-style: oblique;
+}
+
+.hello .titolo {
+  border-color: black;
+  border-width: 100px;
+  border-style: solid;
+  border: 100 px solid black;
+
+  background-color: rgba(0,0,0,0,7)
+  color: #00ef5c;
+  font-family: Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.about .titolo {
+  color: green;
+  background: url("../img/stars.jpg")
